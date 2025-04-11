@@ -24,6 +24,7 @@
 @theme {
 	/* Define custom font*/
 	--custom-p-font-size: 20px;
+	--custom-inline-code-font-size: 19px;
 
 	--font-display: var(--vscode-font-family);
 
