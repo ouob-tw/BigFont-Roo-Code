@@ -58,6 +58,7 @@ const remarkUrlToLink = () => {
 const StyledMarkdown = styled.div`
 	code:not(pre > code) {
 		font-family: var(--vscode-editor-font-family, monospace);
+		font-size: var(--custom-inline-code-font-size);
 		filter: saturation(110%) brightness(95%);
 		color: var(--vscode-textPreformat-foreground) !important;
 		background-color: var(--vscode-textPreformat-background) !important;
