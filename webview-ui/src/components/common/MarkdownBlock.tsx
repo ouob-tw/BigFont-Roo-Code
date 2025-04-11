@@ -94,7 +94,8 @@ const StyledMarkdown = styled.div`
 	code:not(pre > code) {
 		font-family: var(--vscode-editor-font-family, monospace);
 		color: var(--vscode-textPreformat-foreground, #f78383);
-		background-color: var(--vscode-textCodeBlock-background, #1e1e1e);
+		// 聊天窗口裡面的 \`inline code\` 直接指定顏色，因為淺色高對比有bug會變成白色
+		background-color: #1e1e1e;
 		padding: 0px 2px;
 		border-radius: 3px;
 		border: 1px solid var(--vscode-textSeparator-foreground, #424242);
