@@ -87,7 +87,7 @@ const StyledMarkdown = styled.div`
 		word-wrap: break-word;
 		border-radius: 3px;
 		background-color: ${CODE_BLOCK_BG_COLOR};
-		font-size: var(--vscode-editor-font-size, var(--vscode-font-size, 12px));
+		font-size: var(--custom-inline-code-font-size, var(--vscode-font-size, 12px));
 		font-family: var(--vscode-editor-font-family);
 	}
 
