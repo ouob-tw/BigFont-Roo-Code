@@ -46,6 +46,7 @@ const HistoryPreview = ({ showHistoryView }: HistoryPreviewProps) => {
 								WebkitBoxOrient: "vertical",
 								wordBreak: "break-word",
 								overflowWrap: "anywhere",
+								fontSize: "var(--custom-p-font-size)",
 							}}>
 							{item.task}
 						</div>
