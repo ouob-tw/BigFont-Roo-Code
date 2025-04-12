@@ -26,6 +26,7 @@
 	--custom-p-font-size: 20px;
 	--custom-inline-code-font-size: 19px;
 	--custom-setting-font-size: 16px;
+	--custom-code-block-font-size: 18px;
 
 	--font-display: var(--vscode-font-family);
 
