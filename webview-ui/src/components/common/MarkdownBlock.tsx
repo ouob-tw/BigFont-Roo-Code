@@ -90,6 +90,7 @@ const StyledMarkdown = styled.div`
 		"Helvetica Neue",
 		sans-serif;
 	font-size: var(--custom-p-font-size, 18px);
+	font-weight: 500;
 
 	p,
 	li,
