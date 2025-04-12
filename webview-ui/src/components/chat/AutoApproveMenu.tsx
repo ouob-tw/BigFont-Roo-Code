@@ -222,6 +222,7 @@ const AutoApproveMenu = ({ style }: AutoApproveMenuProps) => {
 						style={{
 							color: "var(--vscode-foreground)",
 							flexShrink: 0,
+							fontSize: "var(--custom-setting-font-size)",
 						}}>
 						{t("chat:autoApprove.title")}
 					</span>
@@ -233,6 +234,7 @@ const AutoApproveMenu = ({ style }: AutoApproveMenuProps) => {
 							whiteSpace: "nowrap",
 							flex: 1,
 							minWidth: 0,
+							fontSize: "var(--custom-setting-font-size)",
 						}}>
 						{enabledActionsList || t("chat:autoApprove.none")}
 					</span>
@@ -251,7 +253,7 @@ const AutoApproveMenu = ({ style }: AutoApproveMenuProps) => {
 						style={{
 							marginBottom: "10px",
 							color: "var(--vscode-descriptionForeground)",
-							fontSize: "12px",
+							fontSize: "var(--custom-setting-font-size)",
 						}}>
 						<Trans
 							i18nKey="chat:autoApprove.description"
@@ -271,7 +273,7 @@ const AutoApproveMenu = ({ style }: AutoApproveMenuProps) => {
 								style={{
 									marginLeft: "28px",
 									color: "var(--vscode-descriptionForeground)",
-									fontSize: "12px",
+									fontSize: "var(--custom-setting-font-size)",
 								}}>
 								{action.description}
 							</div>

@@ -25,6 +25,7 @@
 	/* Define custom font*/
 	--custom-p-font-size: 20px;
 	--custom-inline-code-font-size: 19px;
+	--custom-setting-font-size: 16px;
 
 	--font-display: var(--vscode-font-family);
 

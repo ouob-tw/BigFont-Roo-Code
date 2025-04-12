@@ -89,7 +89,9 @@ export const AutoApproveSettings = ({
 						data-testid="always-allow-readonly-checkbox">
 						<span className="font-medium">{t("settings:autoApprove.readOnly.label")}</span>
 					</VSCodeCheckbox>
-					<div className="text-vscode-descriptionForeground text-sm mt-1">
+					<div
+						className="text-vscode-descriptionForeground mt-1"
+						style={{ fontSize: "var(--custom-setting-font-size)" }}>
 						{t("settings:autoApprove.readOnly.description")}
 					</div>
 				</div>
@@ -107,7 +109,9 @@ export const AutoApproveSettings = ({
 									{t("settings:autoApprove.readOnly.outsideWorkspace.label")}
 								</span>
 							</VSCodeCheckbox>
-							<div className="text-vscode-descriptionForeground text-sm mt-1">
+							<div
+								className="text-vscode-descriptionForeground mt-1"
+								style={{ fontSize: "var(--custom-setting-font-size)" }}>
 								{t("settings:autoApprove.readOnly.outsideWorkspace.description")}
 							</div>
 						</div>
@@ -121,7 +125,9 @@ export const AutoApproveSettings = ({
 						data-testid="always-allow-write-checkbox">
 						<span className="font-medium">{t("settings:autoApprove.write.label")}</span>
 					</VSCodeCheckbox>
-					<div className="text-vscode-descriptionForeground text-sm mt-1">
+					<div
+						className="text-vscode-descriptionForeground mt-1"
+						style={{ fontSize: "var(--custom-setting-font-size)" }}>
 						{t("settings:autoApprove.write.description")}
 					</div>
 				</div>
@@ -139,7 +145,9 @@ export const AutoApproveSettings = ({
 									{t("settings:autoApprove.write.outsideWorkspace.label")}
 								</span>
 							</VSCodeCheckbox>
-							<div className="text-vscode-descriptionForeground text-sm mt-1 mb-3">
+							<div
+								className="text-vscode-descriptionForeground mt-1 mb-3"
+								style={{ fontSize: "var(--custom-setting-font-size)" }}>
 								{t("settings:autoApprove.write.outsideWorkspace.description")}
 							</div>
 						</div>
@@ -155,7 +163,9 @@ export const AutoApproveSettings = ({
 								/>
 								<span className="w-20">{writeDelayMs}ms</span>
 							</div>
-							<div className="text-vscode-descriptionForeground text-sm mt-1">
+							<div
+								className="text-vscode-descriptionForeground mt-1"
+								style={{ fontSize: "var(--custom-setting-font-size)" }}>
 								{t("settings:autoApprove.write.delayLabel")}
 							</div>
 						</div>
@@ -169,7 +179,9 @@ export const AutoApproveSettings = ({
 						data-testid="always-allow-browser-checkbox">
 						<span className="font-medium">{t("settings:autoApprove.browser.label")}</span>
 					</VSCodeCheckbox>
-					<div className="text-vscode-descriptionForeground text-sm mt-1">
+					<div
+						className="text-vscode-descriptionForeground mt-1"
+						style={{ fontSize: "var(--custom-setting-font-size)" }}>
 						<div>{t("settings:autoApprove.browser.description")}</div>
 						<div>{t("settings:autoApprove.browser.note")}</div>
 					</div>
@@ -182,7 +194,9 @@ export const AutoApproveSettings = ({
 						data-testid="always-approve-resubmit-checkbox">
 						<span className="font-medium">{t("settings:autoApprove.retry.label")}</span>
 					</VSCodeCheckbox>
-					<div className="text-vscode-descriptionForeground text-sm mt-1">
+					<div
+						className="text-vscode-descriptionForeground mt-1"
+						style={{ fontSize: "var(--custom-setting-font-size)" }}>
 						{t("settings:autoApprove.retry.description")}
 					</div>
 				</div>
@@ -201,7 +215,9 @@ export const AutoApproveSettings = ({
 								/>
 								<span className="w-20">{requestDelaySeconds}s</span>
 							</div>
-							<div className="text-vscode-descriptionForeground text-sm mt-1">
+							<div
+								className="text-vscode-descriptionForeground mt-1"
+								style={{ fontSize: "var(--custom-setting-font-size)" }}>
 								{t("settings:autoApprove.retry.delayLabel")}
 							</div>
 						</div>
@@ -215,7 +231,9 @@ export const AutoApproveSettings = ({
 						data-testid="always-allow-mcp-checkbox">
 						<span className="font-medium">{t("settings:autoApprove.mcp.label")}</span>
 					</VSCodeCheckbox>
-					<div className="text-vscode-descriptionForeground text-sm mt-1">
+					<div
+						className="text-vscode-descriptionForeground mt-1"
+						style={{ fontSize: "var(--custom-setting-font-size)" }}>
 						{t("settings:autoApprove.mcp.description")}
 					</div>
 				</div>
@@ -227,7 +245,9 @@ export const AutoApproveSettings = ({
 						data-testid="always-allow-mode-switch-checkbox">
 						<span className="font-medium">{t("settings:autoApprove.modeSwitch.label")}</span>
 					</VSCodeCheckbox>
-					<div className="text-vscode-descriptionForeground text-sm mt-1">
+					<div
+						className="text-vscode-descriptionForeground mt-1"
+						style={{ fontSize: "var(--custom-setting-font-size)" }}>
 						{t("settings:autoApprove.modeSwitch.description")}
 					</div>
 				</div>
@@ -239,7 +259,9 @@ export const AutoApproveSettings = ({
 						data-testid="always-allow-subtasks-checkbox">
 						<span className="font-medium">{t("settings:autoApprove.subtasks.label")}</span>
 					</VSCodeCheckbox>
-					<div className="text-vscode-descriptionForeground text-sm mt-1">
+					<div
+						className="text-vscode-descriptionForeground mt-1"
+						style={{ fontSize: "var(--custom-setting-font-size)" }}>
 						{t("settings:autoApprove.subtasks.description")}
 					</div>
 				</div>
@@ -251,7 +273,9 @@ export const AutoApproveSettings = ({
 						data-testid="always-allow-execute-checkbox">
 						<span className="font-medium">{t("settings:autoApprove.execute.label")}</span>
 					</VSCodeCheckbox>
-					<div className="text-vscode-descriptionForeground text-sm mt-1">
+					<div
+						className="text-vscode-descriptionForeground mt-1"
+						style={{ fontSize: "var(--custom-setting-font-size)" }}>
 						{t("settings:autoApprove.execute.description")}
 					</div>
 				</div>
@@ -262,7 +286,9 @@ export const AutoApproveSettings = ({
 							<label className="block font-medium mb-1" data-testid="allowed-commands-heading">
 								{t("settings:autoApprove.execute.allowedCommands")}
 							</label>
-							<div className="text-vscode-descriptionForeground text-sm mt-1">
+							<div
+								className="text-vscode-descriptionForeground mt-1"
+								style={{ fontSize: "var(--custom-setting-font-size)" }}>
 								{t("settings:autoApprove.execute.allowedCommandsDescription")}
 							</div>
 						</div>
