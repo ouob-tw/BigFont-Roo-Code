@@ -36,7 +36,8 @@ const HistoryPreview = () => {
 											WebkitBoxOrient: "vertical",
 											wordBreak: "break-word",
 											overflowWrap: "anywhere",
-										}}>
+											fontSize: "var(--custom-p-font-size)",
+							}}>
 										{item.task}
 									</div>
 									<div className="flex flex-row gap-2 text-xs text-vscode-descriptionForeground">
