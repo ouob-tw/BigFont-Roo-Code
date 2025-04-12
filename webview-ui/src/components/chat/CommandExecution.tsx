@@ -75,7 +75,7 @@ export const CommandExecution = ({ executionId, text, icon, title }: CommandExec
 
 	return (
 		<>
-			<div className="flex flex-row items-center justify-between gap-2 mb-1">
+			<div className="flex flex-row items-center justify-between gap-2 mb-1" style={{ fontSize: 'var(--custom-code-block-font-size)' }}>
 				<div className="flex flex-row items-center gap-1">
 					{icon}
 					{title}

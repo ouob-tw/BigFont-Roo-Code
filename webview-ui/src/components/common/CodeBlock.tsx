@@ -141,7 +141,7 @@ export const StyledPre = styled.div<{
 		white-space: ${({ wordwrap }) => (wordwrap === "false" ? "pre" : "pre-wrap")};
 		word-break: ${({ wordwrap }) => (wordwrap === "false" ? "normal" : "normal")};
 		overflow-wrap: ${({ wordwrap }) => (wordwrap === "false" ? "normal" : "break-word")};
-		font-size: var(--vscode-editor-font-size, var(--vscode-font-size, 12px));
+		font-size: var(--custom-code-block-font-size);
 		font-family: var(--vscode-editor-font-family);
 	}
 
@@ -165,7 +165,7 @@ export const StyledPre = styled.div<{
 `
 
 const LanguageSelect = styled.select`
-	font-size: 12px;
+	font-size: var(--custom-code-block-font-size);
 	color: var(--vscode-foreground);
 	opacity: 0.4;
 	font-family: monospace;
