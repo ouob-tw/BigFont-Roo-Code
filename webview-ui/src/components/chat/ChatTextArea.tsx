@@ -865,7 +865,6 @@ const ChatTextArea = forwardRef<HTMLTextAreaElement, ChatTextAreaProps>(
 									"w-full",
 									"text-vscode-input-foreground",
 									"font-vscode-font-family",
-									"text-vscode-editor-font-size",
 									"leading-vscode-editor-line-height",
 									textAreaDisabled ? "cursor-not-allowed" : "cursor-text",
 									"py-1.5 px-2",
@@ -891,6 +890,7 @@ const ChatTextArea = forwardRef<HTMLTextAreaElement, ChatTextAreaProps>(
 									"z-[2]",
 									"scrollbar-none",
 								)}
+								style={{ fontSize: "var(--custom-p-font-size)" }}
 								onScroll={() => updateHighlights()}
 							/>
 							{isTtsPlaying && (
