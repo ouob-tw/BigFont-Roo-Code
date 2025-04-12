@@ -29,8 +29,8 @@
 
 	--font-display: var(--vscode-font-family);
 
-	--text-xs: calc(var(--vscode-font-size) * 0.85);
-	--text-sm: calc(var(--vscode-font-size) * 0.9);
+	--text-xs: calc(var(--vscode-font-size));
+	--text-sm: calc(var(--vscode-font-size));
 	--text-base: var(--vscode-font-size);
 	--text-lg: calc(var(--vscode-font-size) * 1.1);
 
