@@ -89,7 +89,7 @@ export const CommandExecution = ({ executionId, text }: CommandExecutionProps) =
 	return (
 		<div className="w-full bg-vscode-editor-background border border-vscode-border rounded-xs p-2">
 			<div className="flex flex-row items-center justify-between gap-2 px-1">
-				<Line className="text-sm whitespace-nowrap overflow-hidden text-ellipsis">{command}</Line>
+				<Line className="whitespace-nowrap overflow-hidden text-ellipsis" style={{ fontSize: 'var(--custom-code-block-font-size)' }}>{command}</Line>
 				<div className="flex flex-row items-center gap-1">
 					{status?.status === "started" && (
 						<div className="flex flex-row items-center gap-2 font-mono text-xs">
