@@ -755,8 +755,8 @@ export const ChatRowContent = ({
 				case "user_feedback":
 					return (
 						<div
+							className="bg-vscode-badge-background dark:bg-vscode-textLink-foreground/30"
 							style={{
-								backgroundColor: "var(--vscode-badge-background)",
 								color: "var(--vscode-badge-foreground)",
 								borderRadius: "3px",
 								padding: "9px",
@@ -772,7 +772,13 @@ export const ChatRowContent = ({
 									alignItems: "flex-start",
 									gap: "10px",
 								}}>
-								<span style={{ display: "block", flexGrow: 1, padding: "4px" }}>
+								<span
+									style={{
+										display: "block",
+										flexGrow: 1,
+										padding: "4px",
+										fontSize: "calc(var(--custom-p-font-size) * 0.9)",
+									}}>
 									{highlightMentions(message.text)}
 								</span>
 								<VSCodeButton
