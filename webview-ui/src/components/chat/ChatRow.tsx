@@ -857,9 +857,9 @@ export const ChatRowContent = ({
 					)
 				case "user_feedback":
 					return (
-						<div className="bg-vscode-editor-background border rounded-xs p-1 overflow-hidden whitespace-pre-wrap word-break-break-word overflow-wrap-anywhere">
+						<div className="dark:bg-vscode-textLink-foreground/30 bg-vscode-editor-background border rounded-xs p-1 overflow-hidden whitespace-pre-wrap word-break-break-word overflow-wrap-anywhere">
 							<div className="flex justify-between gap-2">
-								<div className="flex-grow px-2 py-1">
+								<div className="flex-grow px-2 py-1" style={{ fontSize: "var(--custom-p-font-size)" }}>
 									<Mention text={message.text} withShadow />
 								</div>
 								<Button

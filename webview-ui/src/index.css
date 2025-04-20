@@ -111,6 +111,8 @@
 	--color-vscode-list-activeSelectionBackground: var(--vscode-list-activeSelectionBackground);
 	--color-vscode-list-activeSelectionForeground: var(--vscode-list-activeSelectionForeground);
 
+	--color-vscode-textLink-foreground: var(--vscode-textLink-foreground);
+
 	--color-vscode-toolbar-hoverBackground: var(--vscode-toolbar-hoverBackground);
 
 	--color-vscode-panel-border: var(--vscode-panel-border);
