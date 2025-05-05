@@ -1,3 +1,32 @@
+# BigFontRooCode
+
+修改Roo Code介面顯示的字體大小
+
+預設的13px太小了，輸入與對話窗口的文字我改成20px，如果要調整請到 `webview-ui/src/index.css` 檔案修改。
+
+```css
+@theme {
+	/* Define custom font - start */
+	--custom-p-font-size: 20px;
+	--custom-inline-code-font-size: 19px;
+	--custom-setting-font-size: 16px;
+	--custom-code-block-font-size: 18px;
+	/* end */
+```
+
+效果圖：
+
+<table>
+  <tr>
+    <td><img src="assets/docs/lobby.png" width="200"/></td>
+    <td><img src="assets/docs/chat.png" width="200"/></td>
+  </tr>
+</table>
+
+---
+
+<br>
+
 <div align="center">
 <sub>
 
