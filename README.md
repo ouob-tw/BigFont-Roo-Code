@@ -1,3 +1,41 @@
+# BigFontRooCode
+
+此fork的目的是修改Roo Code介面的的字體大小，以減少字體太小對眼睛的負擔。
+
+This fork modifies the Roo Code interface font size for eye poor user.
+
+The default VSCode font size of 13px is too small, so I changed it to 20px in both the chat window and the input area.
+
+A custom font size variable is set in `webview-ui/src/index.css`.
+You can adjust it to fit your needs.
+
+```css
+@theme {
+	/* Define custom font - start */
+	--custom-p-font-size: 20px;
+	--custom-inline-code-font-size: 19px;
+	--custom-setting-font-size: 16px;
+	--custom-code-block-font-size: 18px;
+	/* end */
+```
+
+## Commit convention
+
+The prefix "c" on the commit indicates "custom," making it easier for me to differentiate it from the original commit.
+
+## Screenshot
+
+<table>
+  <tr>
+    <td><img src="assets/docs/lobby.png" width="250"/></td>
+    <td><img src="assets/docs/chat.png" width="250"/></td>
+  </tr>
+</table>
+
+---
+
+<br>
+
 <div align="center">
 <sub>
 
