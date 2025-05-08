@@ -82,6 +82,10 @@ export const CommandExecution = ({ executionId, text }: CommandExecutionProps) =
 			if (index !== -1) {
 				setCommand(text.slice(0, index))
 				setOutput(text.slice(index + COMMAND_OUTPUT_STRING.length))
+			} else {
+				// If COMMAND_OUTPUT_STRING is not found, assume the entire text is the command
+				setCommand(text)
+				setOutput("")
 			}
 		}
 	}, [status, text])
