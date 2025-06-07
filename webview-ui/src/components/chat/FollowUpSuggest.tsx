@@ -32,6 +32,7 @@ export const FollowUpSuggest = ({ suggestions = [], onSuggestionClick, ts = 1 }:
 					<Button
 						variant="outline"
 						className="text-left whitespace-normal break-words w-full h-auto py-3 justify-start pr-8"
+						style={{ fontSize: "var(--custom-p-font-size)" }}
 						onClick={(event) => handleSuggestionClick(suggestion, event)}
 						aria-label={suggestion}>
 						<div>{suggestion}</div>
